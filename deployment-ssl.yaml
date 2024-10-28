@@ -56,7 +56,7 @@ spec:
     spec:
       containers:
         - name: bankapp
-          image: shencko/bankapp:latest
+          image: shencko/bankapp:v1
           ports:
             - containerPort: 8080
           env:
